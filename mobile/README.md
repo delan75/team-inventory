@@ -102,7 +102,7 @@ mobile/
    
    Edit `services/api.ts` to point to your backend:
    ```typescript
-   const BASE_URL = 'http://YOUR_IP:8000/api/v1';
+   const BASE_URL = 'http://localhost:8000/api/v1';
    ```
 
 4. **Start the development server**
