@@ -737,16 +737,6 @@ gunicorn config.wsgi:application --bind 0.0.0.0:8000 --workers 4
 celery -A config worker -l info
 ```
 
-## 🐛 Known Issues & Limitations
-
-1. **SQLite in Development**: Not suitable for production, use PostgreSQL
-2. **No Rate Limiting**: Implement rate limiting for production
-3. **Basic Permissions**: Role-based permissions not fully implemented
-4. **No Email Verification**: Email verification on registration not implemented
-5. **Limited Reporting**: Advanced analytics and exports not yet available
-6. **No Webhooks**: No webhook support for external integrations
-7. **Single Currency**: Multi-currency support not implemented
-
 ## 🔮 Future Enhancements
 
 ### Planned Features
