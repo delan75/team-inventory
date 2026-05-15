@@ -786,5 +786,5 @@ For issues, questions, or feature requests, please contact the development team.
 **Version**: 1.0.0  
 **Last Updated**: 2024  
 **Python**: 3.10+  
-**Django**: 5.0+  
+**Django**: 5.1+  
 **API Version**: v1
